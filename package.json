@@ -1,0 +1,14 @@
+{
+  "name": "crockpot-fromBinary",
+  "version": "1.0.0",
+  "description": "Convert binary to decimal integers",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon --exec 'tap spec/mainSpec.js -- --cov' index.js"
+  },
+  "author": "James Youn <jamesyoun710@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "tap": "7.1.2"
+  }
+}
